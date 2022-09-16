@@ -2,6 +2,59 @@
     font-family: 'Noto Sans', sans-serif;
     /* border:1px solid red; */
 }
+/* -----------------------------------------Dialogue or Modal Box------------------------------------------- */
+.modal-shadow-drop{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:2;
+}
+.close-btn{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+}
+.hide-model-box-with-shadow{
+    display: none;
+}
+.modal-box{
+    position: fixed;
+    width: 50vw;
+    padding: 20px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.form-group{
+    padding: 10px;
+
+}
+.login-input{
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.login-input:focus,.login-input:active{
+    /* outline: none; */
+    box-shadow: none;
+
+}
+.custom-login-button-main{
+   width: 100%;
+}
+
+/* -----------------------------------------Header------------------------------------------- */
+
 .logo{
     width: 140px;
     flex:1;
@@ -38,6 +91,7 @@
 .space-seperator{
     height: 20vh;
 }
+/* -----------------------------------------second section------------------------------------------- */
 
 .investing-option-container{
     text-align: center;
@@ -49,6 +103,7 @@
     box-shadow: 4px 4px 40px 3px #ddd;
     cursor: pointer;
 }
+/* -----------------------------------------third section------------------------------------------- */
 
 #particles-js{
     width: 100%;
@@ -73,6 +128,8 @@
     background-size: 30vw 30vh;
     
 }
+/* -----------------------------------------fourth section------------------------------------------- */
+
 .heading{
     text-align: center;
 }
